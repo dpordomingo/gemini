@@ -1,0 +1,563 @@
+[0m[[0minfo[0m] [0mLoading project definition from /projects/src/github.com/src-d/gemini/project[0m
+[0m[[0minfo[0m] [0mSet current project to gemini (in build file:/projects/src/github.com/src-d/gemini/)[0m
+[0m[[0minfo[0m] [0m[32mSuite Starting - CassandraSparkSpec[0m[0m
+ WARN 19:04:04,158 org.apache.spark.internal.Logging$class (Logging.scala:66) - Your hostname, sourced resolves to a loopback address: 127.0.0.1; using 192.168.1.141 instead (on interface wlp58s0)
+ WARN 19:04:04,164 org.apache.spark.internal.Logging$class (Logging.scala:66) - Set SPARK_LOCAL_IP if you need to bind to another address
+ INFO 19:04:09,739 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Connected to Cassandra cluster: Test Cluster
+ WARN 19:04:17,037 org.apache.spark.internal.Logging$class (Logging.scala:66) - Join cannot be optimized. Obtained unsupported conditions: Set(org.apache.spark.sql.catalyst.expressions.AttributeEquals@a736b589)
+ WARN 19:04:17,043 org.apache.spark.internal.Logging$class (Logging.scala:66) - Join cannot be optimized. Obtained unsupported conditions: Set(org.apache.spark.sql.catalyst.expressions.AttributeEquals@a736b589)
+ INFO 19:04:27,227 tech.sourced.gemini.Gemini (Gemini.scala:46) - Writing (final: [38.000, 38.000]) files to DB
+ WARN 19:04:27,974 org.apache.spark.internal.Logging$class (Logging.scala:66) - Join cannot be optimized. Obtained unsupported conditions: Set(org.apache.spark.sql.catalyst.expressions.AttributeEquals@a736b589)
+ WARN 19:04:27,982 org.apache.spark.internal.Logging$class (Logging.scala:66) - Join cannot be optimized. Obtained unsupported conditions: Set(org.apache.spark.sql.catalyst.expressions.AttributeEquals@a736b589)
+ INFO 19:04:30,576 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.162 s.
+ INFO 19:04:30,590 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.177 s.
+ INFO 19:04:30,577 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.176 s.
+ INFO 19:04:30,662 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.024 s.
+ INFO 19:04:30,668 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.034 s.
+ INFO 19:04:30,673 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.024 s.
+ INFO 19:04:30,725 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.013 s.
+ INFO 19:04:30,748 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.019 s.
+ INFO 19:04:30,767 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.025 s.
+ INFO 19:04:30,852 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.018 s.
+ INFO 19:04:30,863 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.030 s.
+ INFO 19:04:30,857 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.025 s.
+ INFO 19:04:30,916 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.030 s.
+ INFO 19:04:30,925 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.035 s.
+ INFO 19:04:30,945 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.025 s.
+ INFO 19:04:30,976 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.006 s.
+ INFO 19:04:31,013 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.040 s.
+ INFO 19:04:31,019 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.007 s.
+ INFO 19:04:31,078 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.035 s.
+ INFO 19:04:31,078 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.004 s.
+ INFO 19:04:31,139 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 38 rows to test_hashes_uniques.blob_hash_files in 0.723 s.
+ INFO 19:04:31,140 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.093 s.
+ INFO 19:04:31,199 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.039 s.
+ INFO 19:04:31,229 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.018 s.
+ INFO 19:04:31,248 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.044 s.
+ INFO 19:04:31,273 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.053 s.
+ INFO 19:04:31,324 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.036 s.
+ INFO 19:04:31,345 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.027 s.
+ INFO 19:04:31,353 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.005 s.
+ INFO 19:04:31,370 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.050 s.
+ INFO 19:04:31,513 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.004 s.
+ INFO 19:04:31,518 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.018 s.
+ INFO 19:04:31,536 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.164 s.
+ INFO 19:04:31,570 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.047 s.
+ INFO 19:04:31,583 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.014 s.
+ INFO 19:04:31,603 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.016 s.
+ INFO 19:04:31,612 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.017 s.
+ INFO 19:04:31,617 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.008 s.
+ INFO 19:04:31,640 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.023 s.
+ INFO 19:04:31,656 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.005 s.
+ INFO 19:04:31,663 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.039 s.
+ INFO 19:04:31,702 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.020 s.
+ INFO 19:04:31,708 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.028 s.
+ INFO 19:04:31,703 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.015 s.
+ INFO 19:04:31,741 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.013 s.
+ INFO 19:04:31,788 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.054 s.
+ INFO 19:04:31,789 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.055 s.
+ INFO 19:04:31,789 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.061 s.
+ INFO 19:04:31,828 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.045 s.
+ INFO 19:04:31,843 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.042 s.
+ INFO 19:04:31,847 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.028 s.
+ INFO 19:04:31,850 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.039 s.
+ INFO 19:04:31,873 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.003 s.
+ INFO 19:04:31,878 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.002 s.
+ INFO 19:04:31,885 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.007 s.
+ INFO 19:04:31,893 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.007 s.
+ INFO 19:04:31,932 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.012 s.
+ INFO 19:04:31,935 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.017 s.
+ INFO 19:04:31,937 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.019 s.
+ INFO 19:04:32,021 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.035 s.
+ INFO 19:04:32,023 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.057 s.
+ INFO 19:04:32,024 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.057 s.
+ INFO 19:04:32,034 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.045 s.
+ INFO 19:04:32,035 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.004 s.
+ INFO 19:04:32,044 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.003 s.
+ INFO 19:04:32,057 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.014 s.
+ INFO 19:04:32,066 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.020 s.
+ INFO 19:04:32,076 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.003 s.
+ INFO 19:04:32,100 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.004 s.
+ INFO 19:04:32,137 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.051 s.
+ INFO 19:04:32,143 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.031 s.
+ INFO 19:04:32,172 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.043 s.
+ INFO 19:04:32,187 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.002 s.
+ INFO 19:04:32,193 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.014 s.
+ INFO 19:04:32,197 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.004 s.
+ INFO 19:04:32,236 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.012 s.
+ INFO 19:04:32,251 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.008 s.
+ INFO 19:04:32,268 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.003 s.
+ INFO 19:04:32,269 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.002 s.
+ INFO 19:04:32,275 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.015 s.
+ INFO 19:04:32,277 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.002 s.
+ INFO 19:04:32,304 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.002 s.
+ INFO 19:04:32,311 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.006 s.
+ INFO 19:04:32,315 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.007 s.
+ INFO 19:04:32,331 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.011 s.
+ INFO 19:04:32,349 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.016 s.
+ INFO 19:04:32,365 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.020 s.
+ INFO 19:04:32,378 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.041 s.
+ INFO 19:04:32,373 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.025 s.
+ INFO 19:04:32,418 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.024 s.
+ INFO 19:04:32,427 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.023 s.
+ INFO 19:04:32,434 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.035 s.
+ INFO 19:04:32,452 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.002 s.
+ INFO 19:04:32,457 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.002 s.
+ INFO 19:04:32,499 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.029 s.
+ INFO 19:04:32,501 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.009 s.
+ INFO 19:04:32,503 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.028 s.
+ INFO 19:04:32,503 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.010 s.
+ INFO 19:04:32,528 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.008 s.
+ INFO 19:04:32,542 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.007 s.
+ INFO 19:04:32,544 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.002 s.
+ INFO 19:04:32,546 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.021 s.
+ INFO 19:04:32,581 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.017 s.
+ INFO 19:04:32,618 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.037 s.
+ INFO 19:04:32,620 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.020 s.
+ INFO 19:04:32,624 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.003 s.
+ INFO 19:04:32,633 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.016 s.
+ INFO 19:04:32,660 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.021 s.
+ INFO 19:04:32,677 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.016 s.
+ INFO 19:04:32,683 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.028 s.
+ INFO 19:04:32,708 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.003 s.
+ INFO 19:04:32,718 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.027 s.
+ INFO 19:04:32,725 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.002 s.
+ INFO 19:04:32,730 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.007 s.
+ INFO 19:04:32,747 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.009 s.
+ INFO 19:04:32,752 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.020 s.
+ INFO 19:04:32,762 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.013 s.
+ INFO 19:04:32,778 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.021 s.
+ INFO 19:04:32,793 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.030 s.
+ INFO 19:04:32,814 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.001 s.
+ INFO 19:04:32,815 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.007 s.
+ INFO 19:04:32,828 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.037 s.
+ INFO 19:04:32,853 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.022 s.
+ INFO 19:04:32,874 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.029 s.
+ INFO 19:04:32,876 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.008 s.
+ INFO 19:04:32,881 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.001 s.
+ INFO 19:04:32,930 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.033 s.
+ INFO 19:04:32,932 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.033 s.
+ INFO 19:04:32,937 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.020 s.
+ INFO 19:04:32,977 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.006 s.
+ INFO 19:04:32,987 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.020 s.
+ INFO 19:04:32,987 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.017 s.
+ INFO 19:04:33,028 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.018 s.
+ INFO 19:04:33,038 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.011 s.
+ INFO 19:04:33,043 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.022 s.
+ INFO 19:04:33,047 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.012 s.
+ INFO 19:04:33,083 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.011 s.
+ INFO 19:04:33,092 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.002 s.
+ INFO 19:04:33,097 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.003 s.
+ INFO 19:04:33,103 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.003 s.
+ INFO 19:04:33,113 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.001 s.
+ INFO 19:04:33,117 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.005 s.
+ INFO 19:04:33,139 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.025 s.
+ INFO 19:04:33,143 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.007 s.
+ INFO 19:04:33,147 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.012 s.
+ INFO 19:04:33,150 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.002 s.
+ INFO 19:04:33,154 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.002 s.
+ INFO 19:04:33,166 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.013 s.
+ INFO 19:04:33,174 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.006 s.
+ INFO 19:04:33,195 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.018 s.
+ INFO 19:04:33,197 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.011 s.
+ INFO 19:04:33,197 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.011 s.
+ INFO 19:04:33,222 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.017 s.
+ INFO 19:04:33,227 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.022 s.
+ INFO 19:04:33,228 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.010 s.
+ INFO 19:04:33,227 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.022 s.
+ INFO 19:04:33,259 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.002 s.
+ INFO 19:04:33,271 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.014 s.
+ INFO 19:04:33,273 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.001 s.
+ INFO 19:04:33,296 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.020 s.
+ INFO 19:04:33,298 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.019 s.
+ INFO 19:04:33,321 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.029 s.
+ INFO 19:04:33,324 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.030 s.
+ INFO 19:04:33,324 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.008 s.
+ INFO 19:04:33,343 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.023 s.
+ INFO 19:04:33,344 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.003 s.
+ INFO 19:04:33,368 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.005 s.
+ INFO 19:04:33,376 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.012 s.
+ INFO 19:04:33,384 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.032 s.
+ INFO 19:04:33,385 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.002 s.
+ INFO 19:04:33,393 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.002 s.
+ INFO 19:04:33,405 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.018 s.
+ INFO 19:04:33,407 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.014 s.
+ INFO 19:04:33,425 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.019 s.
+ INFO 19:04:33,426 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.008 s.
+ INFO 19:04:33,455 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.013 s.
+ INFO 19:04:33,464 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.027 s.
+ INFO 19:04:33,472 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.011 s.
+ INFO 19:04:33,512 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.005 s.
+ INFO 19:04:33,524 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.002 s.
+ INFO 19:04:33,530 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.008 s.
+ INFO 19:04:33,533 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.007 s.
+ INFO 19:04:33,534 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.002 s.
+ INFO 19:04:33,539 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.001 s.
+ INFO 19:04:33,551 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.002 s.
+ INFO 19:04:33,575 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.018 s.
+ INFO 19:04:33,593 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.037 s.
+ INFO 19:04:33,596 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.032 s.
+ INFO 19:04:33,603 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.003 s.
+ INFO 19:04:33,626 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.012 s.
+ INFO 19:04:33,633 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.014 s.
+ INFO 19:04:33,635 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.013 s.
+ INFO 19:04:33,640 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.025 s.
+ INFO 19:04:33,666 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.003 s.
+ INFO 19:04:33,675 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.006 s.
+ INFO 19:04:33,673 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.005 s.
+ INFO 19:04:33,698 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.033 s.
+ INFO 19:04:33,722 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.001 s.
+ INFO 19:04:33,725 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.005 s.
+ INFO 19:04:33,729 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_uniques.blob_hash_files in 0.002 s.
+[31ef5b97191c78f3ce3128ccfc93407016655b84,python/gemini/warmup.py,null/Users/alex/src-d/gemini]
+[5c630ea358ef6b6a103ea171ed4d785e07809c83,python/setup.py,null/Users/alex/src-d/gemini]
+[407d7c85b73507cca1f224beb33d077a898ae887,python/docker-compose.yml,null/Users/alex/src-d/gemini]
+[1bf68e9d43d0aa17e5326393b53e44274dee7996,scala/project/Dependencies.scala,null/Users/alex/src-d/gemini]
+[3a6c1da4bd050af9c7a84ed6cb0130f390688856,python/.gitignore,null/Users/alex/src-d/gemini]
+[36254144091dee03aaa1886ea0cd379ca2d373e5,python/gemini/hasher.py,null/Users/alex/src-d/gemini]
+[62c12a65ac2a25038f4d06a66d5117d13b07d7df,scala/build.sbt,null/Users/alex/src-d/gemini]
+[275a977662c98a50c93887d8a06b56116dd5c9ef,scala/src/main/scala/tech/sourced/gemini/QueryApp.scala,null/Users/alex/src-d/gemini]
+[fa6a28c84762ecd4d385f70dd7f489a4cff3acad,python/gemini/graph.py,null/Users/alex/src-d/gemini]
+[566fe38a927a5e6d857bfbbc7e9e637f712a98b6,scala/src/test/tech/sourced/gemini/CassandraSparkITSpec.scala,null/Users/alex/src-d/gemini]
+[875bae7decd33b76aaa817c482a4146311b1351d,scala/hash,null/Users/alex/src-d/gemini]
+[44745546505850c34154d56216582c788a4723cd,python/Dockerfile,null/Users/alex/src-d/gemini]
+[3aca339def18a41065321e823b37d67a2420ea68,DCO,null/Users/alex/src-d/gemini]
+[982229a57479a8dbcc18684267949def9133939a,python/requirements.txt,null/Users/alex/src-d/gemini]
+[f5865a1a7dd62c67d9f8ca1b60fc2d83544f3829,scala/report,null/Users/alex/src-d/gemini]
+[56870530ea95282a1c7b66bae68faf01f4fc6521,.gitignore,null/Users/alex/src-d/gemini]
+[db5b287fa865aed5b75e7fc922b9e962c4819fab,go/README.md,null/Users/alex/src-d/gemini]
+[7ffdc685b365de54922628d51dac1b738030c618,scala/src/main/scala/tech/sourced/gemini/HashSparkApp.scala,null/Users/alex/src-d/gemini]
+[3dee61063c15b344ea77a62f419681d33d8b8d84,python/gemini/bags.py,null/Users/alex/src-d/gemini]
+[d6926ff6c7a91cee72e2b047f1732e63641a0472,scala/README.md,null/Users/alex/src-d/gemini]
+[4a368a0a8ee6b91a9673974a02774b896b0bc0bb,scala/src/main/scala/tech/sourced/gemini/Gemini.scala,null/Users/alex/src-d/gemini]
+[43fa11234bc29cdd498cba1e200edd2dae052fa9,README.md,null/Users/alex/src-d/gemini]
+[98efea74c68f75e9931c04affdd6606f798a8ac3,scala/project/plugins.sbt,null/Users/alex/src-d/gemini]
+[090b143cc7b37a2d087f69cd79d715816d3bc753,python/gemini/query.py,null/Users/alex/src-d/gemini]
+[e69de29bb2d1d6434b8b29ae775ad8c2e48c5391,python/gemini/__init__.py,null/Users/alex/src-d/gemini]
+[201dd11d9327b18b1e3854e9086c2bfb4a54ffb0,go/connect.go,null/Users/alex/src-d/gemini]
+[5f45fc80408846c78cb86d80119313b8023b8074,go/query.go,null/Users/alex/src-d/gemini]
+[81670ea082c66130ad76fcdb85cc5e34617a4d43,scala/src/test/tech/sourced/gemini/BaseSparkSpec.scala,null/Users/alex/src-d/gemini]
+[d170ebdf71948e629e62db11d3d11ab783f37772,python/gemini/cassandra_utils.py,null/Users/alex/src-d/gemini]
+[64bc13d82e6f15b9f81bccb6cf10b1559ac4c5ab,python/gemini/connected_components.py,null/Users/alex/src-d/gemini]
+[27e88aa115af3a22ce01fc00ec79d060bdccfbfe,scala/project/build.properties,null/Users/alex/src-d/gemini]
+[c708d1931da0ec06f60679e3f79be0b2f1114276,scala/src/main/resources/schema.cql,null/Users/alex/src-d/gemini]
+[17d17b114107c24e35546dc0a8371d018ed10f6c,scala/src/main/scala/tech/sourced/gemini/ReportSparkApp.scala,null/Users/alex/src-d/gemini]
+[f0b5bddd8b44ca4fd5fc2aafab9fb5286a6928a3,scala/sbt,null/Users/alex/src-d/gemini]
+[425b066c861a4b7eda574e186bb74682ca5e139a,python/README.md,null/Users/alex/src-d/gemini]
+[f73eee581e5b9a0b43b9db922629f79e2635f9e6,scala/query,null/Users/alex/src-d/gemini]
+[571d1e5fe5f2deb6dc0988d93b3a1ad79375713a,python/gemini/__main__.py,null/Users/alex/src-d/gemini]
+[097f4a292c384e002c5b5ce8e15d746849af7b37,LICENSE,null/Users/alex/src-d/gemini]
+ WARN 19:04:36,947 org.apache.spark.internal.Logging$class (Logging.scala:66) - Join cannot be optimized. Obtained unsupported conditions: Set(org.apache.spark.sql.catalyst.expressions.AttributeEquals@fa6bc0d3)
+ WARN 19:04:36,948 org.apache.spark.internal.Logging$class (Logging.scala:66) - Join cannot be optimized. Obtained unsupported conditions: Set(org.apache.spark.sql.catalyst.expressions.AttributeEquals@fa6bc0d3)
+ INFO 19:04:41,740 tech.sourced.gemini.Gemini (Gemini.scala:46) - Writing (final: [80.000, 80.000]) files to DB
+ WARN 19:04:41,906 org.apache.spark.internal.Logging$class (Logging.scala:66) - Join cannot be optimized. Obtained unsupported conditions: Set(org.apache.spark.sql.catalyst.expressions.AttributeEquals@fa6bc0d3)
+ WARN 19:04:41,906 org.apache.spark.internal.Logging$class (Logging.scala:66) - Join cannot be optimized. Obtained unsupported conditions: Set(org.apache.spark.sql.catalyst.expressions.AttributeEquals@fa6bc0d3)
+ INFO 19:04:44,334 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.016 s.
+ INFO 19:04:44,340 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.023 s.
+ INFO 19:04:44,358 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.003 s.
+ INFO 19:04:44,384 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.014 s.
+ INFO 19:04:44,408 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.003 s.
+ INFO 19:04:44,441 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.006 s.
+ INFO 19:04:44,445 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.010 s.
+ INFO 19:04:44,540 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.013 s.
+ INFO 19:04:44,555 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.002 s.
+ INFO 19:04:44,574 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.003 s.
+ INFO 19:04:44,579 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:44,641 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.015 s.
+ INFO 19:04:44,643 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.008 s.
+ INFO 19:04:44,670 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.002 s.
+ INFO 19:04:44,689 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.002 s.
+ INFO 19:04:44,695 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.007 s.
+ INFO 19:04:44,734 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.004 s.
+ INFO 19:04:44,757 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 33 rows to test_hashes_duplicates.blob_hash_files in 0.439 s.
+ INFO 19:04:44,759 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:44,771 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:44,777 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:44,816 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 47 rows to test_hashes_duplicates.blob_hash_files in 0.497 s.
+ INFO 19:04:44,824 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.011 s.
+ INFO 19:04:44,828 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:44,825 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:44,869 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.010 s.
+ INFO 19:04:44,873 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.020 s.
+ INFO 19:04:44,941 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.053 s.
+ INFO 19:04:44,943 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.038 s.
+ INFO 19:04:44,944 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.032 s.
+ INFO 19:04:44,944 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.068 s.
+ INFO 19:04:44,960 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:44,969 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.008 s.
+ INFO 19:04:44,984 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.015 s.
+ INFO 19:04:44,988 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:44,994 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.003 s.
+ INFO 19:04:44,999 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.017 s.
+ INFO 19:04:44,999 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.022 s.
+ INFO 19:04:45,010 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.003 s.
+ INFO 19:04:45,022 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.004 s.
+ INFO 19:04:45,045 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.012 s.
+ INFO 19:04:45,055 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:45,055 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.014 s.
+ INFO 19:04:45,083 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.010 s.
+ INFO 19:04:45,097 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.025 s.
+ INFO 19:04:45,098 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.023 s.
+ INFO 19:04:45,106 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.028 s.
+ INFO 19:04:45,117 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:45,119 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:45,127 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.009 s.
+ INFO 19:04:45,155 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.019 s.
+ INFO 19:04:45,157 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.019 s.
+ INFO 19:04:45,157 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.016 s.
+ INFO 19:04:45,172 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.011 s.
+ INFO 19:04:45,176 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.013 s.
+ INFO 19:04:45,203 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:45,210 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.008 s.
+ INFO 19:04:45,223 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.032 s.
+ INFO 19:04:45,226 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:45,224 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.025 s.
+ INFO 19:04:45,241 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:45,245 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:45,288 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.007 s.
+ INFO 19:04:45,332 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.025 s.
+ INFO 19:04:45,334 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.024 s.
+ INFO 19:04:45,337 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.019 s.
+ INFO 19:04:45,345 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.021 s.
+ INFO 19:04:45,347 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.005 s.
+ INFO 19:04:45,358 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.014 s.
+ INFO 19:04:45,384 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.002 s.
+ INFO 19:04:45,386 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:45,410 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.002 s.
+ INFO 19:04:45,437 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.026 s.
+ INFO 19:04:45,440 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.002 s.
+ INFO 19:04:45,447 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:45,450 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.025 s.
+ INFO 19:04:45,461 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.007 s.
+ INFO 19:04:45,462 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.003 s.
+ INFO 19:04:45,465 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.014 s.
+ INFO 19:04:45,465 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.019 s.
+ INFO 19:04:45,480 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:45,498 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.002 s.
+ INFO 19:04:45,500 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.003 s.
+ INFO 19:04:45,507 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:45,510 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:45,527 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.021 s.
+ INFO 19:04:45,544 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.009 s.
+ INFO 19:04:45,547 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.011 s.
+ INFO 19:04:45,549 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.006 s.
+ INFO 19:04:45,550 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.002 s.
+ INFO 19:04:45,560 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:45,570 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:45,590 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.002 s.
+ INFO 19:04:45,594 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.029 s.
+ INFO 19:04:45,612 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.028 s.
+ INFO 19:04:45,632 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:45,647 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.008 s.
+ INFO 19:04:45,655 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.014 s.
+ INFO 19:04:45,650 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:45,693 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.022 s.
+ INFO 19:04:45,700 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:45,704 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.002 s.
+ INFO 19:04:45,709 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:45,721 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:45,728 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:45,730 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.003 s.
+ INFO 19:04:45,735 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.013 s.
+ INFO 19:04:45,770 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.003 s.
+ INFO 19:04:45,770 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.002 s.
+ INFO 19:04:45,774 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.002 s.
+ INFO 19:04:45,786 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.002 s.
+ INFO 19:04:45,794 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:45,816 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.021 s.
+ INFO 19:04:45,855 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.028 s.
+ INFO 19:04:45,862 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.024 s.
+ INFO 19:04:45,876 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.051 s.
+ INFO 19:04:45,881 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.006 s.
+ INFO 19:04:45,884 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.009 s.
+ INFO 19:04:45,919 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.014 s.
+ INFO 19:04:45,920 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.004 s.
+ INFO 19:04:45,922 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:45,920 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:45,930 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.002 s.
+ INFO 19:04:45,977 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.003 s.
+ INFO 19:04:45,983 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.015 s.
+ INFO 19:04:45,986 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:46,013 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:46,015 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.024 s.
+ INFO 19:04:46,053 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.011 s.
+ INFO 19:04:46,054 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.014 s.
+ INFO 19:04:46,075 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:46,079 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:46,081 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.027 s.
+ INFO 19:04:46,108 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:46,130 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.011 s.
+ INFO 19:04:46,133 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.012 s.
+ INFO 19:04:46,140 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.021 s.
+ INFO 19:04:46,143 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.021 s.
+ INFO 19:04:46,161 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:46,162 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.003 s.
+ INFO 19:04:46,175 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:46,181 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.016 s.
+ INFO 19:04:46,186 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.021 s.
+ INFO 19:04:46,204 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.010 s.
+ INFO 19:04:46,223 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.017 s.
+ INFO 19:04:46,239 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.046 s.
+ INFO 19:04:46,265 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.040 s.
+ INFO 19:04:46,269 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.013 s.
+ INFO 19:04:46,270 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.022 s.
+ INFO 19:04:46,274 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.003 s.
+ INFO 19:04:46,316 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.010 s.
+ INFO 19:04:46,324 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.014 s.
+ INFO 19:04:46,330 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.027 s.
+ INFO 19:04:46,351 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.022 s.
+ INFO 19:04:46,356 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:46,358 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:46,366 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.023 s.
+ INFO 19:04:46,395 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.021 s.
+ INFO 19:04:46,398 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.022 s.
+ INFO 19:04:46,407 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:46,408 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.015 s.
+ INFO 19:04:46,412 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.039 s.
+ INFO 19:04:46,415 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.010 s.
+ INFO 19:04:46,445 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.007 s.
+ INFO 19:04:46,449 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.008 s.
+ INFO 19:04:46,461 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:46,462 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.021 s.
+ INFO 19:04:46,476 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:46,478 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.014 s.
+ INFO 19:04:46,498 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.016 s.
+ INFO 19:04:46,498 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.017 s.
+ INFO 19:04:46,498 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.010 s.
+ INFO 19:04:46,531 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.011 s.
+ INFO 19:04:46,533 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.006 s.
+ INFO 19:04:46,545 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.002 s.
+ INFO 19:04:46,553 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:46,553 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.004 s.
+ INFO 19:04:46,560 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:46,571 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.012 s.
+ INFO 19:04:46,580 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:46,587 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:46,585 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:46,621 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.023 s.
+ INFO 19:04:46,636 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:46,637 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.002 s.
+ INFO 19:04:46,640 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:46,651 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.008 s.
+ INFO 19:04:46,652 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.008 s.
+ INFO 19:04:46,676 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.003 s.
+ INFO 19:04:46,690 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.003 s.
+ INFO 19:04:46,689 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:46,688 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:46,705 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:46,709 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:46,717 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:46,725 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.007 s.
+ INFO 19:04:46,719 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:46,752 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:46,757 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.001 s.
+ INFO 19:04:46,761 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Wrote 0 rows to test_hashes_duplicates.blob_hash_files in 0.024 s.
+[e32d54ae4b969ac13f737efaf1c11ccfc52bbe5b,consumer.go,github.com/erizocosmico/borges.git]
+[b084eddc6410318ba0f1689ea1e8b1dbef3738fa,linejobiter.go,github.com/erizocosmico/borges.git]
+[2fa601c8c29c75c7b5d7ec80a22d5dbfde82dafc,model.go,github.com/erizocosmico/borges.git]
+[44f67e8d1d20f512b46bd9fb395a8c72982ffaa0,changes.go,github.com/erizocosmico/borges.git]
+[25394d14ec0d483b65c7b59d53977efb0e50734a,cli/borges/consumer.go,github.com/erizocosmico/borges.git]
+[54873953d4b00d69326018dd95ecb42b40c1b63c,cli/borges/main.go,github.com/erizocosmico/borges.git]
+[664df997b98944176d894eb266d052d82d28f76c,mentionjobiter.go,github.com/erizocosmico/borges.git]
+[b0fcab7c46dc415b7d6f8d8570e3b111fd0d5d15,glide.yaml,github.com/erizocosmico/borges.git]
+[b8c49338c41c1db02d9210f24dc96cc927c04240,git_test.go,github.com/erizocosmico/borges.git]
+[2245fcf45ad7f31f4d39e5386f053887d307da6b,worker_pool.go,github.com/erizocosmico/borges.git]
+[4cfd4914583cf645a46d78eb4e7d0363fb95391f,archiver_test.go,github.com/erizocosmico/borges.git]
+[493d45ba4391e78dbc258934c9ecebabd5ae8d40,model_test.go,github.com/erizocosmico/borges.git]
+[0ee906abfeffb8e2ed1751ba1113fa71bb9d79da,Makefile,github.com/erizocosmico/borges.git]
+[d8c728246ae60060da0d199f530f47772f89c77b,.gitignore,github.com/erizocosmico/borges.git]
+[cd413eee2aea26b2f0b50f7bae2aaeb71b9c12f5,git.go,github.com/erizocosmico/borges.git]
+[ea2feb656f5edd2b60272e4aed99362e7adf8e09,common_test.go,github.com/erizocosmico/borges.git]
+[5b37f5f86d2841e8a9fdcff155c7549ce3b27e1b,linejobiter_test.go,github.com/erizocosmico/borges.git]
+[4b68d35bc6ea69a4fcbc090fb3a74d79fb021b73,Dockerfile,github.com/erizocosmico/borges.git]
+[c126c2c3a43347d28cc2572a7c897eee3c365245,.travis.yml,github.com/erizocosmico/borges.git]
+[69b03842b167c74c12517826edb11132237b9950,worker.go,github.com/erizocosmico/borges.git]
+[849d2899f0af066c837aede38aa2ed9e884698b1,fixtures_test.go,github.com/erizocosmico/borges.git]
+[f55507972a35a9fb080a41d769d7ff2526a605be,consumer_test.go,github.com/erizocosmico/borges.git]
+[9d51ec5bdc5c976f3decb2a17bbab952fc5ff00e,producer_test.go,github.com/erizocosmico/borges.git]
+[65c846d2946a1bc1a053b68f76af1849af666db2,producer.go,github.com/erizocosmico/borges.git]
+[faa0e8f5e75c41b11bdbfbf439456ffbf94c727e,doc.go,github.com/erizocosmico/borges.git]
+[66070792deca1e8bd1a0559c1b39cc09dfcead69,changes_test.go,github.com/erizocosmico/borges.git]
+[6b600b3f0a6172af59eddecef8ea39fde80fe66c,archiver.go,github.com/erizocosmico/borges.git]
+[42d03d0dee43083a9d0784c610ad8f7cc25bfe00,README.md,github.com/erizocosmico/borges.git]
+[93046d8b05dffa2aeb96d2d192ef043fc45377b4,common.go,github.com/erizocosmico/borges.git]
+[dc6817245a5213ab250471276acb61c186acab11,MAINTAINERS,github.com/erizocosmico/borges.git]
+[39c18589882021fabe95452d7a2fbf3bdcc9a95d,cli/borges/version.go,github.com/erizocosmico/borges.git]
+[e1534ea2426fcda56fa6ae6944ecff177f0deafa,glide.lock,github.com/erizocosmico/borges.git]
+[7993273408bfccf609875759de3451040a7bda87,cli/borges/producer.go,github.com/erizocosmico/borges.git]
+[c10f60a671e8421435866ed21832e359d1c77782,cli/borges/producer.go,github.com/src-d/borges.git]
+[d00482dd4a32d409c101d1d97bd313c867043e0d,storage/database.go,github.com/src-d/borges.git]
+[d02c7351705aa210b1b23b6edc906fac37bc6f52,borges-consumer.yml,github.com/src-d/borges.git]
+[75f34bff7c647aeb44395ca42bb0ea048af5b337,.travis.yml,github.com/src-d/borges.git]
+[2fa601c8c29c75c7b5d7ec80a22d5dbfde82dafc,model.go,github.com/src-d/borges.git]
+[cbef114fabf0fa7f7ab1566f281236e47ca17ddd,fixtures_test.go,github.com/src-d/borges.git]
+[44f67e8d1d20f512b46bd9fb395a8c72982ffaa0,changes.go,github.com/src-d/borges.git]
+[493d45ba4391e78dbc258934c9ecebabd5ae8d40,model_test.go,github.com/src-d/borges.git]
+[48fea0af088c978aadeb4c0e821991a1be6d83c4,git_test.go,github.com/src-d/borges.git]
+[cb570772ba55d361c82dc42552b7c550f8916487,linejobiter.go,github.com/src-d/borges.git]
+[a99a3422391e55753c5270865be2b1f99c213850,common_test.go,github.com/src-d/borges.git]
+[d85fabc3dd6f1f773ce80881988da503da8c9c18,executor.go,github.com/src-d/borges.git]
+[b78b72d1dd2db84cf5793b10bc2d4db78969b291,worker_pool.go,github.com/src-d/borges.git]
+[eb06ca2782b83f46b8c6361f2d6b1a529bf37dc6,common.go,github.com/src-d/borges.git]
+[729e04c097e551bb1bf93adcf55c8edabdcd576f,producer.go,github.com/src-d/borges.git]
+[0ee906abfeffb8e2ed1751ba1113fa71bb9d79da,Makefile,github.com/src-d/borges.git]
+[9a57dd0fb23e913c2022a931d1c82bc7e3b5915d,changes_test.go,github.com/src-d/borges.git]
+[f504a9e084e63e7479a532d16f2b7839d5c0a7ea,.gitignore,github.com/src-d/borges.git]
+[170a9de78cb5ad7c57574d0f4658b3329436d94f,storage/database_test.go,github.com/src-d/borges.git]
+[7ba13671dd038c80ffe2446e4a60c6c79a249409,cli/borges/packer.go,github.com/src-d/borges.git]
+[9c5e5dfaaa20cbefb2f00d40f8fe236bbe3e5152,mentionjobiter.go,github.com/src-d/borges.git]
+[762e0dc2161e996a99149f304be10f733866e6bd,Dockerfile,github.com/src-d/borges.git]
+[faa0e8f5e75c41b11bdbfbf439456ffbf94c727e,doc.go,github.com/src-d/borges.git]
+[1c1c2ac133a2856e6d6f70d8e321c1a1c086751c,borges-consumer-profiler-service.yml,github.com/src-d/borges.git]
+[19cdc6ebe32e5d23a1b6fb3999cd559dbbad6210,archiver.go,github.com/src-d/borges.git]
+[8c9cb5c52309e271a13d5bf2a5d94a3444375e67,linejobiter_test.go,github.com/src-d/borges.git]
+[236fae09aa2079dbcc4f53f8f92b9230fe0a2480,cli/borges/init.go,github.com/src-d/borges.git]
+[10a002615c3e4382c624118e1d0ccd180d162f1d,executor_test.go,github.com/src-d/borges.git]
+[540da971611bb7a7a36c5d5ebf2517994c545596,storage/local_test.go,github.com/src-d/borges.git]
+[b8d4f11dec0d24688b9b8d1d4cd3990d73f89689,worker.go,github.com/src-d/borges.git]
+[9950bec58ab9c80d8a7a68d8f6d95be1871fb92b,README.md,github.com/src-d/borges.git]
+[73d34678ea9e86d1fbc4b05c594911d8f1281d45,metrics/metrics.go,github.com/src-d/borges.git]
+[39c18589882021fabe95452d7a2fbf3bdcc9a95d,cli/borges/version.go,github.com/src-d/borges.git]
+[96bf1bbeafbca1529328e9c7b64d2c4370ff1bf6,glide.lock,github.com/src-d/borges.git]
+[9f653118e787febce824759bb5c4ef17fe4da7b0,consumer.go,github.com/src-d/borges.git]
+[ccba4fc6654f88b12601da40f6f230611949aaf7,storage/local.go,github.com/src-d/borges.git]
+[c4915a152af9c2347ecc0f2e0ae73de6ffe000f8,cli/borges/main.go,github.com/src-d/borges.git]
+[7558786958f6084188135b773f4457472a9e4052,archiver_test.go,github.com/src-d/borges.git]
+[f6cbe129cf6615bc14a2e391e8c2062c29795979,git.go,github.com/src-d/borges.git]
+[b517c1105513882e3f12eb303afa295188fb7201,cli/borges/consumer.go,github.com/src-d/borges.git]
+[097f4a292c384e002c5b5ce8e15d746849af7b37,LICENSE,github.com/src-d/borges.git]
+[629007f779f980cc64c13156fe94827505b7d6f4,glide.yaml,github.com/src-d/borges.git]
+[c1dc2a658b05a68f6e68cffe953d119898f2f657,consumer_test.go,github.com/src-d/borges.git]
+[660bbab9dc31f450f2f1e756fb6eece19ca1043b,storage/repostore.go,github.com/src-d/borges.git]
+[6e0db9a34f4766f1ca04d04777a60d0987925bf7,producer_test.go,github.com/src-d/borges.git]
+[1e27891beabc1d9a8630937fd113bd84a9191f06,borges-producer.yml,github.com/src-d/borges.git]
+[dc6817245a5213ab250471276acb61c186acab11,MAINTAINERS,github.com/src-d/borges.git]
+[0m[[0minfo[0m] [0m[32mScope Opened - CassandraSparkSpec: Read from Cassandra[0m[0m
+[0m[[0minfo[0m] [0m[32mTest Starting - CassandraSparkSpec: Read from Cassandra should return same results as written[0m[0m
+[0m[[0minfo[0m] [0m[32mTest Succeeded - CassandraSparkSpec: Read from Cassandra should return same results as written[0m[0m
+[0m[[0minfo[0m] [0m[32mScope Closed - CassandraSparkSpec: Read from Cassandra[0m[0m
+[0m[[0minfo[0m] [0m[32mScope Opened - CassandraSparkSpec: Report from Cassandra using GROUP BY[0m[0m
+[0m[[0minfo[0m] [0m[32mTest Starting - CassandraSparkSpec: Report from Cassandra using GROUP BY should return duplicate files[0m[0m
+[0m[[0minfo[0m] [0m[32mTest Succeeded - CassandraSparkSpec: Report from Cassandra using GROUP BY should return duplicate files[0m[0m
+[0m[[0minfo[0m] [0m[32mScope Closed - CassandraSparkSpec: Report from Cassandra using GROUP BY[0m[0m
+[0m[[0minfo[0m] [0m[32mScope Opened - CassandraSparkSpec: Detailed Report from Cassandra using GROUP BY[0m[0m
+[0m[[0minfo[0m] [0m[32mTest Starting - CassandraSparkSpec: Detailed Report from Cassandra using GROUP BY should return duplicate files[0m[0m
+[0m[[0minfo[0m] [0m[32mTest Succeeded - CassandraSparkSpec: Detailed Report from Cassandra using GROUP BY should return duplicate files[0m[0m
+[0m[[0minfo[0m] [0m[32mScope Closed - CassandraSparkSpec: Detailed Report from Cassandra using GROUP BY[0m[0m
+[0m[[0minfo[0m] [0m[32mScope Opened - CassandraSparkSpec: Detailed Report from Database[0m[0m
+[0m[[0minfo[0m] [0m[32mTest Starting - CassandraSparkSpec: Detailed Report from Database should return duplicate files[0m[0m
+[0m[[0minfo[0m] [0m[32mTest Succeeded - CassandraSparkSpec: Detailed Report from Database should return duplicate files[0m[0m
+[0m[[0minfo[0m] [0m[32mScope Closed - CassandraSparkSpec: Detailed Report from Database[0m[0m
+[0m[[0minfo[0m] [0m[32mScope Opened - CassandraSparkSpec: Report from Cassandra with unique files[0m[0m
+[0m[[0minfo[0m] [0m[32mTest Starting - CassandraSparkSpec: Report from Cassandra with unique files should return no duplicate files[0m[0m
+[0m[[0minfo[0m] [0m[32mTest Succeeded - CassandraSparkSpec: Report from Cassandra with unique files should return no duplicate files[0m[0m
+[0m[[0minfo[0m] [0m[32mScope Closed - CassandraSparkSpec: Report from Cassandra with unique files[0m[0m
+[0m[[0minfo[0m] [0m[32mSuite Completed - CassandraSparkSpec[0m[0m
+ INFO 19:04:51,407 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Disconnected from Cassandra cluster: Test Cluster
+ INFO 19:04:51,409 com.datastax.spark.connector.util.Logging$class (Logging.scala:35) - Successfully executed shutdown hook: Clearing session cache for C* connector
+[0m[[0minfo[0m] [0m[36mRun completed in 50 seconds, 581 milliseconds.[0m[0m
+[0m[[0minfo[0m] [0m[36mTotal number of tests run: 5[0m[0m
+[0m[[0minfo[0m] [0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0minfo[0m] [0m[36mTests: succeeded 5, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0minfo[0m] [0m[32mAll tests passed.[0m[0m
+[0m[[32msuccess[0m] [0mTotal time: 52 s, completed Dec 20, 2017 7:04:51 PM[0m

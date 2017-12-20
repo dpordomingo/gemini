@@ -4,6 +4,7 @@ import java.io.{File, FileInputStream}
 
 import com.datastax.driver.core.querybuilder.QueryBuilder
 import com.datastax.driver.core.{Session, SimpleStatement}
+import org.apache.log4j.LogManager
 import org.apache.spark.sql.cassandra._
 import org.apache.spark.sql.{DataFrame, SparkSession}
 import org.eclipse.jgit.lib.Constants.OBJ_BLOB
@@ -14,6 +15,8 @@ import scala.collection.JavaConverters._
 import scala.io.Source
 
 class Gemini(session: SparkSession, keyspace: String = Gemini.defautKeyspace) {
+
+  val logger = LogManager.getLogger(classOf[Gemini])
 
   def hash(reposPath: String): DataFrame = {
     if (session == null) {
@@ -40,11 +43,12 @@ class Gemini(session: SparkSession, keyspace: String = Gemini.defautKeyspace) {
   }
 
   def save(files: DataFrame): Unit = {
-    println(s"Writing ${files.rdd.countApprox(10000L)} files to DB")
+    logger.info(s"Writing ${files.rdd.countApprox(10000L)} files to DB")
     files.write
       .mode("append")
       .cassandraFormat("blob_hash_files", keyspace)
       .save()
+    files.rdd.collect().foreach(println)
   }
 
   def hashAndSave(reposPath: String): Unit = {
@@ -112,7 +116,7 @@ class Gemini(session: SparkSession, keyspace: String = Gemini.defautKeyspace) {
   }
 
   def applySchema(session: Session): Unit = {
-    println("CQL: creating schema") //TODO(bzz): Log.Debug
+    logger.debug("CQL: creating schema")
     Source
       .fromFile(Gemini.defaultSchemaFile)
       .getLines
@@ -120,14 +124,14 @@ class Gemini(session: SparkSession, keyspace: String = Gemini.defautKeyspace) {
       .filter(!_.isEmpty)
       .foreach { line =>
         val cql = line.replace("__KEYSPACE__", keyspace)
-        println(s"CQL: $cql")
+        logger.debug("CQL: Done. Schema created")
         session.execute(cql)
       }
-    println("CQL: Done. Schema created")
+    logger.debug("CQL: Done. Schema created")
   }
 
   def dropSchema(session: Session): Unit = {
-    println("CQL: dropping schema") //TODO(bzz): Log.Debug
+    logger.debug("CQL: dropping schema")
     session.execute(s"DROP KEYSPACE IF EXISTS $keyspace;")
   }
 }

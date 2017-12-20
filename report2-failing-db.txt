@@ -1,0 +1,48 @@
+
+ blob_hash | repo | file_path
+-----------+------+-----------
+
+(0 rows)
+
+ blob_hash                                | repo                         | file_path
+------------------------------------------+------------------------------+---------------------------------------------------------------
+ 3dee61063c15b344ea77a62f419681d33d8b8d84 | null/Users/alex/src-d/gemini |                                         python/gemini/bags.py
+ 98efea74c68f75e9931c04affdd6606f798a8ac3 | null/Users/alex/src-d/gemini |                                     scala/project/plugins.sbt
+ 56870530ea95282a1c7b66bae68faf01f4fc6521 | null/Users/alex/src-d/gemini |                                                    .gitignore
+ 275a977662c98a50c93887d8a06b56116dd5c9ef | null/Users/alex/src-d/gemini |       scala/src/main/scala/tech/sourced/gemini/QueryApp.scala
+ 875bae7decd33b76aaa817c482a4146311b1351d | null/Users/alex/src-d/gemini |                                                    scala/hash
+ f73eee581e5b9a0b43b9db922629f79e2635f9e6 | null/Users/alex/src-d/gemini |                                                   scala/query
+ 43fa11234bc29cdd498cba1e200edd2dae052fa9 | null/Users/alex/src-d/gemini |                                                     README.md
+ 090b143cc7b37a2d087f69cd79d715816d3bc753 | null/Users/alex/src-d/gemini |                                        python/gemini/query.py
+ c708d1931da0ec06f60679e3f79be0b2f1114276 | null/Users/alex/src-d/gemini |                           scala/src/main/resources/schema.cql
+ 1bf68e9d43d0aa17e5326393b53e44274dee7996 | null/Users/alex/src-d/gemini |                              scala/project/Dependencies.scala
+ f5865a1a7dd62c67d9f8ca1b60fc2d83544f3829 | null/Users/alex/src-d/gemini |                                                  scala/report
+ 36254144091dee03aaa1886ea0cd379ca2d373e5 | null/Users/alex/src-d/gemini |                                       python/gemini/hasher.py
+ 3aca339def18a41065321e823b37d67a2420ea68 | null/Users/alex/src-d/gemini |                                                           DCO
+ 5f45fc80408846c78cb86d80119313b8023b8074 | null/Users/alex/src-d/gemini |                                                   go/query.go
+ 201dd11d9327b18b1e3854e9086c2bfb4a54ffb0 | null/Users/alex/src-d/gemini |                                                 go/connect.go
+ 62c12a65ac2a25038f4d06a66d5117d13b07d7df | null/Users/alex/src-d/gemini |                                               scala/build.sbt
+ 407d7c85b73507cca1f224beb33d077a898ae887 | null/Users/alex/src-d/gemini |                                     python/docker-compose.yml
+ fa6a28c84762ecd4d385f70dd7f489a4cff3acad | null/Users/alex/src-d/gemini |                                        python/gemini/graph.py
+ 982229a57479a8dbcc18684267949def9133939a | null/Users/alex/src-d/gemini |                                       python/requirements.txt
+ 17d17b114107c24e35546dc0a8371d018ed10f6c | null/Users/alex/src-d/gemini | scala/src/main/scala/tech/sourced/gemini/ReportSparkApp.scala
+ d6926ff6c7a91cee72e2b047f1732e63641a0472 | null/Users/alex/src-d/gemini |                                               scala/README.md
+ 31ef5b97191c78f3ce3128ccfc93407016655b84 | null/Users/alex/src-d/gemini |                                       python/gemini/warmup.py
+ d170ebdf71948e629e62db11d3d11ab783f37772 | null/Users/alex/src-d/gemini |                              python/gemini/cassandra_utils.py
+ f0b5bddd8b44ca4fd5fc2aafab9fb5286a6928a3 | null/Users/alex/src-d/gemini |                                                     scala/sbt
+ 425b066c861a4b7eda574e186bb74682ca5e139a | null/Users/alex/src-d/gemini |                                              python/README.md
+ 566fe38a927a5e6d857bfbbc7e9e637f712a98b6 | null/Users/alex/src-d/gemini | scala/src/test/tech/sourced/gemini/CassandraSparkITSpec.scala
+ db5b287fa865aed5b75e7fc922b9e962c4819fab | null/Users/alex/src-d/gemini |                                                  go/README.md
+ 44745546505850c34154d56216582c788a4723cd | null/Users/alex/src-d/gemini |                                             python/Dockerfile
+ 3a6c1da4bd050af9c7a84ed6cb0130f390688856 | null/Users/alex/src-d/gemini |                                             python/.gitignore
+ 27e88aa115af3a22ce01fc00ec79d060bdccfbfe | null/Users/alex/src-d/gemini |                                scala/project/build.properties
+ 4a368a0a8ee6b91a9673974a02774b896b0bc0bb | null/Users/alex/src-d/gemini |         scala/src/main/scala/tech/sourced/gemini/Gemini.scala
+ 81670ea082c66130ad76fcdb85cc5e34617a4d43 | null/Users/alex/src-d/gemini |        scala/src/test/tech/sourced/gemini/BaseSparkSpec.scala
+ 64bc13d82e6f15b9f81bccb6cf10b1559ac4c5ab | null/Users/alex/src-d/gemini |                         python/gemini/connected_components.py
+ 5c630ea358ef6b6a103ea171ed4d785e07809c83 | null/Users/alex/src-d/gemini |                                               python/setup.py
+ 571d1e5fe5f2deb6dc0988d93b3a1ad79375713a | null/Users/alex/src-d/gemini |                                     python/gemini/__main__.py
+ e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 | null/Users/alex/src-d/gemini |                                     python/gemini/__init__.py
+ 097f4a292c384e002c5b5ce8e15d746849af7b37 | null/Users/alex/src-d/gemini |                                                       LICENSE
+ 7ffdc685b365de54922628d51dac1b738030c618 | null/Users/alex/src-d/gemini |   scala/src/main/scala/tech/sourced/gemini/HashSparkApp.scala
+
+(38 rows)
